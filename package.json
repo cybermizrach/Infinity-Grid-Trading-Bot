@@ -1,14 +1,14 @@
 {
   "name": "binance-bot",
-  "version": "0.7.2",
+  "version": "0.8.0",
   "description": "Another bot for Binance",
   "private": true,
-  "main": "bot.js",
+  "main": "igb.js",
   "dependencies": {
     "binance-api-node": "latest",
-    "coinmarketcap-api": "latest",
     "dropbox": "latest",
     "fs": "latest",
+    "influx": "latest",
     "isomorphic-fetch": "latest",
     "nanoid": "latest",
     "node-schedule": "latest",
@@ -17,7 +17,7 @@
     "util": "latest"
   },
   "scripts": {
-    "bot": "node bot.js"
+    "bot": "node igb.js"
   },
   "author": "emmett",
   "license": "MIT"
