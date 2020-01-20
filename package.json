@@ -6,6 +6,7 @@
   "main": "igb.js",
   "dependencies": {
     "binance-api-node": "latest",
+    "date-fns": "latest",
     "dropbox": "latest",
     "fs": "latest",
     "influx": "latest",
